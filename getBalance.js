@@ -23,6 +23,7 @@ const balance = async () => {
       `Attempting to get balance from ${account.address}`
    );
 
+   
    var balance = web3.utils.fromWei(
       await web3.eth.getBalance(account.address),
       'ether'

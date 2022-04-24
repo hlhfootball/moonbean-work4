@@ -1,6 +1,7 @@
 const Web3 = require('web3');
 const { abi } = require('./compile');
 
+
 /*
    -- Define Provider & Variables --
 */
